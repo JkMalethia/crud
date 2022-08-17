@@ -1,0 +1,73 @@
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 28px;
+  color: white;
+}
+
+h1,
+h6 {
+  margin: 0px;
+}
+
+.input {
+  font-size: 24px;
+  margin-top: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  padding-right: 8px;
+  outline-width: 0px;
+}
+
+.btn {
+  font-size: 24px;
+  padding-top: 6px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  color: white;
+  background-color: gray;
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+/Edge */
+  user-select: none;
+  /* Standard */
+}
+
+.btn:hover {
+  font-size: 24px;
+  padding-top: 6px;
+  padding-bottom: 9px;
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(87, 86, 86);
+  -webkit-user-select: none;
+  /* Safari */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* IE10+/Edge */
+  user-select: none;
+  /* Standard */
+}
+
+.foodBox {
+  background-color: #535353;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 8px;
+  margin-top: 16px;
+
+}
